@@ -2,7 +2,7 @@
 
 **Version 0.2**
 
-Broadcom BCM4350 Workarround Fedora 29
+Broadcom BCM4350 Workaround Fedora 29
 
 ## Table of contents
 
