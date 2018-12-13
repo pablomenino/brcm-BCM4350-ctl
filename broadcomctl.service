@@ -1,0 +1,15 @@
+[Unit]
+Description=brcm-BCM4350-ctl network connectivity workaround
+
+# Run it as late as possible
+After=wpa-supplicant.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/broadcomctl.sh start
+ExecStop=/usr/local/bin/broadcomctl.sh stop
+ExecReload=/usr/local/bin/broadcomctl.sh restart
+RemainAfterExit=yes
+
+[Install]
+WantedBy=graphical.target
