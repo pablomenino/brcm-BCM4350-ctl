@@ -1,6 +1,6 @@
 # brcm-BCM4350-ctl
 
-**Version 0.2**
+**Version 0.3**
 
 Broadcom BCM4350 Workaround Fedora 29
 
@@ -37,6 +37,22 @@ GRUB_DISABLE_RECOVERY="true"
 And then update GRUB 2 configuration, more information here:
 
 [https://fedoraproject.org/wiki/GRUB_2#Tasks_.2F_Common_issues](https://fedoraproject.org/wiki/GRUB_2#Tasks_.2F_Common_issues)
+
+BIOS systems:
+
+```
+# sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+```
+
+UEFI systems:
+
+```
+# sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+```
+
+
+
+
 
 ## Install
 
