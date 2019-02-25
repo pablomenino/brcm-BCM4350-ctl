@@ -1,5 +1,8 @@
 # brcm-BCM4350-ctl
 
+![GitHub release](https://img.shields.io/github/release/pablomenino/brcm-BCM4350-ctl.svg) 
+![GitHub](https://img.shields.io/github/license/pablomenino/brcm-BCM4350-ctl.svg)
+
 **Version 0.3**
 
 Broadcom BCM4350 Workaround Fedora 29
@@ -12,7 +15,7 @@ Broadcom BCM4350 Workaround Fedora 29
 
 #### Usage
 
-Broadcom BCM4350 (Dell XPS 13) network card misbehaves at system shutdown (firewalld time out) and on power saver feature (random crash), this script apply a workaround to makes usable the WiFi network card.
+Broadcom BCM4350 (Dell XPS 13 9350) network card misbehaves at system shutdown (firewalld time out) and on power saver feature (random crash), this script apply a workaround to makes usable the WiFi network card.
 
 #### Blacklist Kernel Driver
 
