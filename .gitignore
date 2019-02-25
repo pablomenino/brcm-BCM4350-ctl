@@ -1,0 +1,8 @@
+### GitIgnore file ###
+
+# Cache files
+.temp/
+.libs/
+
+# Visual Studio Code config files
+.vscode/
