@@ -3,7 +3,7 @@
 
 <p align="center">
 <a href="https://github.com/pablomenino/brcm-BCM4350-ctl/releases"><img src="https://img.shields.io/github/release/pablomenino/brcm-BCM4350-ctl.svg"></a>
-<a href="./LICENSE.md"><img src="https://img.shields.io/github/license/pablomenino/brcm-BCM4350-ctl.svg"></a>
+<a href="./LICENSE"><img src="https://img.shields.io/github/license/pablomenino/brcm-BCM4350-ctl.svg"></a>
 </p>
 
 ## Table of contents
