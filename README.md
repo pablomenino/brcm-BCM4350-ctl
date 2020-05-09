@@ -1,5 +1,5 @@
 <h3 align="center">brcm-BCM4350-ctl</h3>
-<p align="center">Broadcom BCM4350 Workaround Fedora 29</p>
+<p align="center">Broadcom BCM4350 Workaround Fedora 29/30/31/32</p>
 
 <p align="center">
 <a href="https://github.com/pablomenino/brcm-BCM4350-ctl/releases"><img src="https://img.shields.io/github/release/pablomenino/brcm-BCM4350-ctl.svg"></a>
@@ -19,6 +19,14 @@ Broadcom BCM4350 (Dell XPS 13 9350) network card misbehaves at system shutdown (
 #### Blacklist Kernel Driver
 
 Blacklist the brcmfmac kernel module at system startup. This disable WiFi Broadcom kernel module at boot.
+
+**Option A - Change Grub config with grubby.**
+
+```
+sudo grubby --update-kernel=ALL --args="modprobe.blacklist=brcmfmac"
+```
+
+**Option B - Or manually change Grub Config**
 
 **Add `modprobe.blacklist=brcmfmac` in GRUB config.**
 
@@ -52,10 +60,6 @@ UEFI systems:
 # sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
 ```
 
-
-
-
-
 ## Install
 
 Install scrip:
@@ -76,11 +80,6 @@ Control the service from systemd:
 
 ## Uninstall
 
-Remove the script:
-
 ```
-# systemctl stop broadcomctl
-# systemctl disable broadcomctl
-# rm /usr/local/bin/broadcomctl.sh
-# rm /etc/systemd/system/broadcomctl.service
+# sudo ./uninstall.sh
 ```

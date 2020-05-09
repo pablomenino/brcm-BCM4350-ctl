@@ -11,20 +11,20 @@
 #----------------------------------------------------------------------------------------
 
 #----------------------------------------------------------------------------------------
-# Install brcm-BCM4350-ctl
+# Uninstall brcm-BCM4350-ctl
 
 if [ "$EUID" -ne 0 ]; then
     echo "This script must be run as root!!!"
     exit 1
 fi
 
-cp broadcomctl.sh /usr/local/bin/
-cp broadcomctl.service /etc/systemd/system/
+systemctl stop broadcomctl
+systemctl disable broadcomctl
 
-chmod +x /usr/local/bin/broadcomctl.sh
+rm /usr/local/bin/broadcomctl.sh
+rm /etc/systemd/system/broadcomctl.service
 
 systemctl daemon-reload
-systemctl enable broadcomctl
 
 #----------------------------------------------------------------------------------------
 # Exit
