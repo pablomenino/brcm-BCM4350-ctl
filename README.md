@@ -2,8 +2,8 @@
 <p align="center">Broadcom BCM4350 Workaround Fedora 29/30/31/32</p>
 
 <p align="center">
-<a href="https://github.com/pablomenino/brcm-BCM4350-ctl/releases"><img src="https://img.shields.io/github/release/pablomenino/brcm-BCM4350-ctl.svg"></a>
-<a href="./LICENSE"><img src="https://img.shields.io/github/license/pablomenino/brcm-BCM4350-ctl.svg"></a>
+<img src="https://img.shields.io/github/release/pablomenino/brcm-BCM4350-ctl.svg">
+<img src="https://img.shields.io/github/license/pablomenino/brcm-BCM4350-ctl.svg">
 </p>
 
 ## Table of contents
