@@ -2,12 +2,12 @@
 
 #----------------------------------------------------------------------------------------
 # brcm-BCM4350-ctl
-# Version: 0.4
+# Version: 0.4.1
 # 
 # WebSite:
-# https://github.com/pablomenino/brcm-BCM4350-ctl
+# https://lab.mfwlab.com/lab/brcm-BCM4350-ctl/
 # 
-# Copyright © 2020 - Pablo Meniño <pablo.menino@gmail.com>
+# Copyright © 2020 - Pablo Meniño <pablo.menino@mfwlab.com>
 #----------------------------------------------------------------------------------------
 
 #----------------------------------------------------------------------------------------

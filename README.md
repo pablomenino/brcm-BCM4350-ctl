@@ -1,10 +1,13 @@
 <h3 align="center">brcm-BCM4350-ctl</h3>
+<h3 align="center">Version: 0.4.1</h3>
 <p align="center">Broadcom BCM4350 Workaround Fedora 29/30/31/32</p>
 
 <p align="center">
 <img src="https://img.shields.io/github/release/pablomenino/brcm-BCM4350-ctl.svg">
 <img src="https://img.shields.io/github/license/pablomenino/brcm-BCM4350-ctl.svg">
 </p>
+
+[WebSite](https://lab.mfwlab.com/lab/brcm-BCM4350-ctl/)
 
 ## Table of contents
 
@@ -70,7 +73,7 @@ Install scrip:
 
 ## Control the service
 
-Control the service from systemd:
+Control the systemd service:
 
 ```
 # systemctl start broadcomctl
